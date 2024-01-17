@@ -4,6 +4,8 @@
 
 Este proyecto es una página web dedicada a Ditto, un Pokémon único con la habilidad de transformarse en cualquier otro Pokémon que encuentre. La página web muestra la versatilidad y el potencial estratégico de Ditto en el juego.
 
+Puedes ver el resultado final de la web aquí: [Ditto Web Project](https://eloygar.github.io/ResposiveWeb/)
+
 ## Diseño
 
 La página web se basa en un diseño de Figma. [Haz clic aquí](https://www.figma.com/file/Oj0dfyNhBXpo7tcIaHpond/T4.1-Garcia-Eloy-Responsive-Web?type=design&node-id=0%3A1&mode=dev) para visualizar el diseño original en Figma.
@@ -29,4 +31,3 @@ La página web se basa en un diseño de Figma. [Haz clic aquí](https://www.figm
 ## Autor
 
 Este proyecto fue creado por [eloygar](https://github.com/eloygar).
-
