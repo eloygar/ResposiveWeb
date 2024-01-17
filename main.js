@@ -1,5 +1,4 @@
 import { data } from './data.js';
-import { toggleMenu, changeContent } from './nav.js';
 
 let menu = document.querySelector("#menu-icon");
 let navlist = document.querySelector(".navlist");
@@ -19,6 +18,19 @@ document
     }, 2000);
   });
 
+//cambiar contenido de la pagina
+navLinks.forEach((link, index) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    title.textContent = data[index].title;
+    text.innerHTML = data[index].frase;
+  });
+});
+menu.onclick = () => {
+  menu.classList.toggle("bx-x");
+  navlist.classList.toggle("open");
+};
+//scroll animation
 const sr = ScrollReveal({
   distance: "65px",
   duration: 2600,
